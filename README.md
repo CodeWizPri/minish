@@ -86,3 +86,6 @@ Tests 1-4: `minish -c "..."` stdout byte-identical to `bash -c "..."`.
 - [`std::process::Command`](https://doc.rust-lang.org/std/process/struct.Command.html) and [`Stdio`](https://doc.rust-lang.org/std/process/struct.Stdio.html) - your entire toolbox
 - `strace -f ./minish -c "ls | wc"` - watch your safe Rust shell make the raw fork/exec/pipe syscalls underneath
 - `man bash`, section SHELL GRAMMAR - what the full-fat version of your Part 2 grammar looks like
+
+- Author
+- Priyanshu Bikash Mohapatra
