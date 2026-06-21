@@ -87,5 +87,5 @@ Tests 1-4: `minish -c "..."` stdout byte-identical to `bash -c "..."`.
 - `strace -f ./minish -c "ls | wc"` - watch your safe Rust shell make the raw fork/exec/pipe syscalls underneath
 - `man bash`, section SHELL GRAMMAR - what the full-fat version of your Part 2 grammar looks like
 
-- Author
+### Author
 - Priyanshu Bikash Mohapatra
